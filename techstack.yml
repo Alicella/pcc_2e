@@ -1,0 +1,142 @@
+repo_name: Alicella/pcc_2e
+report_id: 5d824e845c01ba93cd02726da62e1783
+repo_type: Public
+timestamp: '2023-11-09T18:14:07+00:00'
+requested_by: ericwlange
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Django
+  description: The Web framework for perfectionists with deadlines
+  website_url: https://www.djangoproject.com/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/994/4aGjtNQv.png
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  version: 19.9.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/dj-database-url
+  version: 0.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/psycopg2
+  version: 2.7.7
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/pytz
+  version: '2018.9'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/sqlparse
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
+  vulnerabilities:
+  - name: sqlparse contains a regular expression that is vulnerable to Regular Expression
+      Denial of Service
+    cve_id: CVE-2023-30608
+    cve_url: https://github.com/advisories/GHSA-rrm6-wvj7-cwh2
+    detected_date: Apr 22
+    severity: moderate
+    first_patched: 0.4.4
+- name: whitenoise
+  description: Radically simplified static file serving for WSGI applications
+  package_url: https://pypi.org/whitenoise
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20302/default_e6bfb9eb79752f0f359e80676966e216a56792ab.png
+  detection_source_url: chapter_20/deploying_learning_log/requirements.txt
+  detection_source: chapter_20/deploying_learning_log/requirements.txt
+  last_updated_by: Eric Matthes
+  last_updated_on: 2019-05-01 14:47:25.000000000 Z
